@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: 1em sans-serif;
+    background-color: white;
+}
+.navbar{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    height: 5vh;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    opacity: 85%;
+}
+.menu-item{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vh; 
+    width: 5vw;
+}
+.menu-item:hover{
+    background-color: #3b3b3b;
+}
