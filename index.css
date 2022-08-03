@@ -19,6 +19,7 @@ body{
     top: 0px;
     left: 0px;
     opacity: 85%;
+    padding-left: 2px;
 }
 .menu-item{
     display: inline-block;
@@ -26,8 +27,32 @@ body{
     text-align: center;
     vertical-align: middle;
     line-height: 5vh; 
-    width: 5vw;
+    width: auto;
+    padding: 0px 10px
 }
 .menu-item:hover{
     background-color: #3b3b3b;
+}
+footer{
+    display: flex;
+    background-color: white;  
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    min-height: 75px;
+}
+
+hr{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.footer-items ul{
+    vertical-align: middle;
+    justify-content: center;
+    /* width: 100vw; */
+}
+.footer-items ul li{
+    display: inline-block;
+    justify-content: center;
 }
