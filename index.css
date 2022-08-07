@@ -13,7 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: black;
-    height: 5vh;
+    height: 50px;
     min-height: 40px;
     width: 100vw;
     position: fixed;
@@ -22,12 +22,15 @@ body{
     opacity: 85%;
     padding-left: 2px;
 }
+.navbar #group{
+    text-align: center;
+}
 .menu-item{
     display: inline-block;
     color: white;
     text-align: center;
     vertical-align: middle;
-    line-height: 5vh; 
+    line-height: 50px; 
     width: auto;
     padding: 0px 10px;
 }
