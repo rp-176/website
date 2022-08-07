@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
+    font: 1em sans-serif;
 }
 html, body{
     margin: 0px;
     padding: 0px;
 }
 body{
-    font: 1em sans-serif;
     background-color: white;
 }
 .navbar{
@@ -14,6 +14,7 @@ body{
     padding: 0px;
     background-color: black;
     height: 5vh;
+    min-height: 40px;
     width: 100vw;
     position: fixed;
     top: 0px;
@@ -28,31 +29,53 @@ body{
     vertical-align: middle;
     line-height: 5vh; 
     width: auto;
-    padding: 0px 10px
+    padding: 0px 10px;
 }
 .menu-item:hover{
     background-color: #3b3b3b;
 }
 footer{
-    display: flex;
     background-color: white;  
     position: fixed;
     bottom: 0px;
     width: 100vw;
-    min-height: 75px;
+    height: 110px;
 }
-
 hr{
-    position: relative;
+    position: static;
     top: 0px;
     left: 0px;
+    border-top: 2px solid black;
 }
-.footer-items ul{
-    vertical-align: middle;
-    justify-content: center;
-    /* width: 100vw; */
+footer div{
+    text-align: center;
 }
-.footer-items ul li{
+footer div li{
     display: inline-block;
-    justify-content: center;
+    position: relative;
+    top: 6px;  
+    text-align: center;
+    height: 30px;
+    width: 30px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    fill: black !important;
+    transition: transform 30ms ease-in-out;
+    vertical-align: middle;
+}
+.icon:hover{
+    fill: #3b3b3b !important;
+    height: 27px;
+    width: 27px;
+}
+.copyright{
+    z-index: -1;
+    width: 100vw;
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+    vertical-align: bottom;
+    
 }
