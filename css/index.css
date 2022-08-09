@@ -21,22 +21,42 @@ body{
     left: 0px;
     opacity: 85%;
     padding-left: 2px;
-}
-.navbar #group{
     text-align: center;
 }
 .menu-item{
     display: inline-block;
-    color: white;
     text-align: center;
     vertical-align: middle;
     line-height: 50px; 
     width: auto;
     padding: 0px 10px;
 }
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
 .menu-item:hover{
     background-color: #3b3b3b;
 }
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: red;
+}
+@media(max-width:768px){
+    .hamburger{
+        display: inline-block;
+    }
+}
+
 footer{
     background-color: white;  
     position: fixed;
@@ -45,6 +65,7 @@ footer{
     height: 110px;
 }
 hr{
+    width: 90%;
     position: static;
     top: 0px;
     left: 0px;
@@ -80,5 +101,4 @@ footer div li{
     bottom: -15px;
     text-align: center;
     vertical-align: bottom;
-    
 }
