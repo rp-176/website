@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font: 1em sans-serif;
 }
+
 html, body{
     margin: 0px;
     padding: 0px;
@@ -11,33 +12,6 @@ body{
 }
 
 /* NAVBAR */
-/* .navbar{
-    background-color: black;
-    height: 50px;
-    min-height: 40px;
-    width: 100vw;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    opacity: 85%;
-    padding-left: 2px;
-    text-align: center;
-}
-.menu-item{
-    display: inline-block;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px; 
-    width: auto;
-    padding: 0px 10px;
-}
-.menu-link{
-    color: white;
-    text-decoration: none;
-}
-.menu-item:hover{
-    background-color: #3b3b3b;
-} */
 header{
     background-color: black;
 }
@@ -116,6 +90,61 @@ nav{
 
 .menu-item:hover{
     background-color: #3b3b3b;
+}
+
+/* index BODY */
+p{
+    text-indent: 45px;
+    font-size: 17px;
+}
+.about{
+    position: absolute;
+    left: 20vw;
+    width: 60vw;
+    word-wrap: break-word;
+}
+@media(min-width: 768px){
+    p{
+        font-size: 20px ;
+    }
+    .picture {
+        /* change size */
+    }
+}
+
+/* projects BODY */
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+.project-container{
+    width: 60vw;
+    position: absolute;
+    left: 17.5vw;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 27.5vw); /*change width*/
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vh;
+}
+.project {
+    text-align: center;
+    /* word-wrap: break-word; */
+    background-color: black;
+    border-radius: 40px;
+}
+.project:hover{
+    background-color: #3b3b3b;
+}
+.pic{
+    width: 15vw;
+    height: 15vh;
+    min-width: none;
+    min-height: ;
+    fill: white;
 }
 
 /* FOOTER */
