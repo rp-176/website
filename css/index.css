@@ -90,6 +90,9 @@ nav{
     .about{
         z-index: -1;
     }
+    .project-container{
+        z-index: -1;
+    }
 }
 
 .menu-item:hover{
