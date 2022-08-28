@@ -229,3 +229,13 @@ footer div li{
     text-align: center;
     vertical-align: bottom;
 }
+@media (max-width:768px) {
+    footer{
+        position: absolute;
+        bottom:0px;
+        top:125%;
+    }
+    .copyright{
+        position: static;
+    }
+}
